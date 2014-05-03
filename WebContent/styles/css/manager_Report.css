@@ -1,0 +1,58 @@
+#content h1 {
+position:absolute;
+left:500px;
+top:-150px;
+}
+
+#content h3 {
+position:absolute;
+left:0px;
+}
+
+#choose_Report {
+position:relative;
+top:100px;
+left:50px;
+}
+
+#content select {
+margin-bottom:20px;
+}
+
+#displayResults {
+width:1000px;
+min-height:650px;
+margin-top:120px;
+box-shadow: 0px 10px 20px #666;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+#displayResults table {
+border:solid black 1px;
+border-collapse:collapse;
+margin-left:auto;
+margin-right:auto;
+}
+
+#displayResults th{
+background-color:#bd5190;
+padding:5px;
+border:solid 1px;
+}
+
+#displayResults td {
+border:solid 1px;
+padding:5px;
+}
+/* FOOTER */
+
+#content{
+position:relative;
+margin-top:190px;
+}
+
+#research {
+display:none;
+border:0;
+}

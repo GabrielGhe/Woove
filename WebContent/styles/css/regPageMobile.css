@@ -1,0 +1,97 @@
+
+<!-- Kimberly Noel  -->
+
+#content{
+ position:relative;
+ height:0px;
+}
+
+#regTitle {
+position:relative;
+border:0px;
+top:0px;
+margin-left:25px;
+}
+
+
+#container {
+position:relative;
+width:90%;
+border:0px;
+top:-150px;
+margin-left:50px;
+}
+
+.right_aligned {
+	height: 10em;
+	line-height: 1.25em;
+}
+
+.right_aligned label {
+	display: block;
+	float: left;
+	clear: left;
+	width: 200px;
+	padding-right: 1em;
+	text-align: right;
+}
+
+.right_aligned select, .right_aligned input {
+	display: block;
+}
+
+#buttondiv{
+position:relative;
+border: 0px;
+top: 0px;
+}
+
+#submit{
+	margin:auto;
+}
+
+body{
+	background:linear-gradient(to right, #eadde6, white, #eadde6);
+background: -webkit-gradient(linear, 0 0, 100% 0, from(#eadde6), color-stop(50%, white), color-stop(50%, white), color-stop(100%, #eadde6));
+}
+
+#logo{
+	margin-left:100px;
+}
+
+#footerBar, #footer, #separator, #quote, #research, #menuImage {
+	display:none;
+}
+
+#all{
+	box-shadow: 0px 0px 0px #FFF, 0px 0px 0px;
+	height:auto;
+	width:auto;
+	padding:0px;
+}
+
+#white{
+	width:100%;
+}
+
+#menu img {
+   display:none;
+}
+
+#header{height:0px;}
+
+#profile {
+	left:0px;
+   top: -80px;
+   background:#5d5d5;
+   font-size:17pt;
+   width:40%;
+}
+
+#cart{ 
+	margin-left:20px;
+	 width:100px;
+	 top: -80px;
+	 background:#5d5d5;
+	 font-size:17pt;
+}

@@ -1,0 +1,200 @@
+#content h1 {
+position:absolute;
+left:500px;
+top:-150px;
+}
+#genreChoose a {
+text-decoration:none;
+}
+
+#genreChoose img {
+position:absolute;
+top:60px;
+right:73px;
+z-index:0;
+}
+
+#displayTrack {
+min-height:650px;
+}
+
+#research{
+display:none;
+}
+
+#tableLoop {
+margin-top:20px;
+margin-left:0px;
+border:solid 1px;
+border-top:solid 2px;
+border-collapse:collapse;
+font-size:90%;
+position:relative;
+width:1024px;
+}
+
+#tableLoop td img{
+position:absolute;
+top:0px;
+right:0px;
+}
+
+#tableLoop td {
+border-bottom:solid 2px grey;
+border-right:solid 2px black;
+border-left:solid 2px black;
+padding-top:3px;
+padding-bottom:2px;
+padding-left:3px;
+position:relative;
+}
+
+#tableLoop th {
+border-bottom:solid 2px grey;
+border-right:solid 2px black;
+border-left:solid 2px black;
+padding-top:3px;
+padding-bottom:2px;
+padding-left:3px;
+text-align:center;
+}
+
+#approve{
+position:absolute;
+bottom:-70px;
+left:10px;
+}
+
+#reject{
+position:absolute;
+bottom:-70px;
+right:0px;
+}
+
+#remove{
+position:absolute;
+bottom:0px;
+left:50px;
+}
+
+#remove p {
+color:white;
+font-size:130%;
+position:absolute;
+top:-17px;
+left:20px;
+}
+
+#apply{
+position:absolute;
+bottom:0px;
+left:60px;
+}
+
+#apply p {
+color:white;
+font-size:130%;
+position:absolute;
+top:-17px;
+left:23px;
+}
+
+/* FOOTER */
+
+#content{
+position:relative;
+margin-top:190px;
+margin-bottom:50px;
+}
+
+/* ---------------Table stuff------------------ */
+#tableLoop {
+border:solid 2px;
+padding-top:2px;
+border-collapse:collapse;
+cursor:pointer;
+-webkit-box-shadow: 0px 0px 4px 0px #000000;
+      	box-shadow: 0px 0px 4px 0px #000000;
+}
+
+#tableLoop td {
+border-bottom:solid 2px grey;
+border-right:solid 2px black;
+border-left:solid 2px black;
+margin-left:2%;
+}
+
+#tableLoop th{
+text-align:center;
+border:solid 2px;
+border-collapse:collapse;
+}
+
+
+div.dataTables_length {
+    float: left;
+}
+ 
+div.dataTables_filter {
+    float: right;
+}
+ 
+div.dataTables_info {
+    float: left;
+}
+ 
+div.dataTables_paginate {
+    float: right;
+    display:block;
+    margin: 5px;
+    cursor:pointer;
+}
+ 
+div.dataTables_length,
+div.dataTables_filter,
+div.dataTables_paginate,
+div.dataTables_info {
+    padding: 6px;
+}
+
+table.tableStyle {
+    clear: both;
+}
+ 
+table.tableStyle {
+    width: 100%;
+    clear: both;
+}
+ 
+table.tableStyle td,
+table.tableStyle th {
+    padding: 5px;
+    border: 1px solid #fff;
+}
+
+/* Header cells */
+table.tableStyle thead th {
+    text-align: center;
+    background: #bd5190;
+}
+
+/* Body cells */
+table.tableStyle tbody th {
+    text-align: left;
+}
+     
+table.tableStyle tbody td {
+    text-align: center;
+}
+
+table.tableStyle tbody {
+    background-color:white;
+}
+         
+table.tableStyle tbody tr.odd td {
+}
+
+#tableLoop_previous, #tableLoop_next
+{
+	margin:5px;
+}

@@ -1,0 +1,97 @@
+body{
+width:100%;
+margin:0px;
+padding-right:0px;
+padding:0px;
+font-family:Trebuchet MS;
+}
+
+#all{
+margin:auto;
+width:1024px;
+padding:0px 0px 80px 0px;
+margin-bottom:0px;
+}
+
+#searchform input[placeholder] {
+font-size:120%;
+}
+
+#Ad1 {
+width:175px;
+height:270px;
+/* delete background-color when ads are up*/
+background-color:black;
+position:absolute;
+top:400px;
+right:10px;
+border:solid 1px;
+}
+
+#Ad1 p {
+padding-top:90px;
+text-align:center;
+color:white;
+}
+
+#Ad2 {
+width:270px;
+height:175px;
+/* delete background-color when ads are up*/
+background-color:black;
+position:absolute;
+bottom:0px;
+left:10px;
+margin-bottom:0px;
+border:solid 1px;
+}
+
+#Ad2 p {
+padding-top:60px;
+text-align:center;
+color:white;
+}
+
+#footerBar {
+height:50px;
+width:100%;
+background-color:#5d5d5d;
+border-top:solid 1px;
+bottom:0px;
+position:relative;
+}
+
+#footer {
+position:relative;
+margin-left:auto;
+margin-right:auto;
+top:-5px;
+width:1024px;
+color:white;
+}
+
+#footer a {
+color:white;
+text-decoration:underline;
+}
+
+#footer ul {
+list-style-type:none;
+}
+
+#footer li {
+display:block;
+position:absolute;
+top:0px;
+z-index:1;
+}
+
+#li2{
+top:0px;
+left:35%;
+}
+
+#li1{
+top:0px;
+left:60%;
+}

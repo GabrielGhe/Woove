@@ -1,0 +1,218 @@
+<!-- Kimberly Noel  -->
+
+#all{
+	box-shadow: 0px 0px 0px #FFF, 0px 0px 0px;
+	height:auto;
+	width:auto;
+	padding:0px;
+}
+
+body {
+	background: linear-gradient(to right, #eadde6, white, #eadde6);
+	background: -webkit-gradient(linear, 0 0, 100% 0, from(#eadde6),
+		color-stop(50%, white), color-stop(50%, white),
+		color-stop(100%, #eadde6) );
+}
+
+#content{
+ position:relative;
+ height:0px;
+ margin:0px;
+ font-size:16pt;
+}
+
+#albumimg {
+	top: 20px;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	background-color: white;
+	width: 50px;
+	height:50px;
+}
+
+#albumimg img {
+	width: 50px;
+	height:50px;
+}
+
+
+#trackcontainer {
+    position: relative;
+    width: 40%;
+    height: 60px;
+    top: -20px;
+    font-size: 13pt;
+    left: 220px;
+}
+
+#price {
+	position: relative;
+}
+
+#test {
+	width: 100%;
+	position: relative;
+	min-height: 100px;
+	border: 0px;
+}
+
+#getTitle {
+	top: -20px;
+	width: 90%;
+	height: auto;
+}
+
+#title{
+	word-wrap:break-word;
+	width:150px;
+	position:relative;
+	top: 100px;
+	left:220px;
+}
+
+#title h2{
+	height:40px;
+	font-size:15pt;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	width:150px;
+	display:block;
+	overflow:hidden;
+}
+
+#title h3{
+	font-size:13pt;
+	height:15px;
+	text-overflow:ellipsis;
+}
+
+#starcontainer {
+	position: relative;
+	clear: both;
+	margin-left: 20px;
+	top: -80px;
+}
+
+#test {
+	display: none;
+}
+
+#similar h3 {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#similiar {
+	top:20px;
+	width: 90%;
+    height: auto;
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 20px rgb(102, 102, 102), 0px -10px 20px rgb(102, 102, 102);
+    font-size: 12pt;
+    padding-bottom: 0px;
+}
+
+#similar p {
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	width:200px;
+	display:block;
+	overflow:hidden;
+	position: relative;
+	margin-top: -8px;
+	margin-bottom: 0px;
+	top: -80px;
+	left: 60px;
+	font-size:13pt;
+	padding:2px;
+}
+
+.albumSample {
+	position: relative;
+	bottom: 25px;
+	left: 0px;
+}
+
+#reviews_Container {
+	width: 90%;
+	min-height: 250px;
+	margin-left: 30px;
+	margin-top: 40px;
+	box-shadow: 0px 7px 15px #666;
+	padding: 10px;
+	margin-bottom: 0;
+	background-color: white;
+}
+
+#reviews_Container h2 {
+	text-align: center;
+}
+
+.reviews {
+    width: 90%;
+    min-height: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    position: relative;
+}
+
+#fakeReview-re, .reviewAll {
+    min-width: 300px;
+    min-height: 150px;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#reviewAll {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:350px;
+}
+
+#reviewRating {
+    display:none;
+}
+
+#commentBody {
+    width: auto;
+}
+
+.reviewAll label {
+    font-size:15pt;
+}
+
+#footerBar,#footer,#recentlyViewed,#quote, #research, #menuImage {
+	display: none;
+}
+
+#white{
+	width:100%;
+}
+
+#menu img {
+   display:none;
+}
+
+#header{height:0px;}
+
+
+#profile {
+	left:0px;
+   top: -80px;
+   background:#5d5d5;
+   font-size:17pt;
+   width:40%;
+}
+
+#cart{ 
+	margin-left:20px;
+	 width:100px;
+	 top: -80px;
+	 background:#5d5d5;
+	 font-size:17pt;
+}

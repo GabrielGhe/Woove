@@ -1,0 +1,29 @@
+/* global page features */
+
+body{
+width:100%;
+margin:0px;
+padding-right:0px;
+padding:0px;
+font-family:Trebuchet MS;
+}
+
+
+#all{
+width:1024px ;
+margin:auto;
+padding:0px 0px 0px 0px;
+/* box-shadow:7px 0px 10px #666;
+/*border-left:solid 1px;
+border-right:solid 1px;*/
+margin-bottom:0px;
+}
+
+a {
+color:white;
+text-decoration:underline;
+}
+
+input[placeholder] {
+font-size:120%;
+}

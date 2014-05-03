@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+  <Resource name="jdbc/woove" auth="Container"
+    type="javax.sql.DataSource" maxActive="20" 
+    maxIdle="30" maxWait="10000" username="root" 
+    password="Ech05443"
+    driverClassName="com.mysql.jdbc.Driver"  
+    url=
+    "jdbc:mysql://localhost:3306/woove?autoReconnect=true"
+  />
+</Context>

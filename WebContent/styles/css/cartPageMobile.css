@@ -1,0 +1,160 @@
+<!-- Kimberly Noel  -->
+
+#content {
+	position: relative;
+	top: 0px;
+	height: 0px;
+}
+
+body {
+	background: linear-gradient(to right, #eadde6, white, #eadde6);
+	background: -webkit-gradient(linear, 0 0, 100% 0, from(#eadde6),
+		color-stop(50%, white), color-stop(50%, white),
+		color-stop(100%, #eadde6) );
+}
+
+#logo {
+   margin-left:100px;
+}
+
+#title {
+	width: 90%;
+	text-align: center;
+}
+
+#container {
+	min-height: 300px;
+	width: 80%;
+	border: 0px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#container table {
+	width: 95%;
+	text-align: left;
+	border-spacing: 0;
+	border-bottom: solid 1px;
+}
+
+#container td {
+	border-left: solid 1px;
+	border-right: solid 1px;
+	border-collapse: collapse;
+}
+
+#container th {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.none {
+	border-bottom: solid 1px;
+	background-color: transparent;
+}
+
+.sample {
+	width: 60px;
+	padding-left: 10px;
+}
+
+.album {
+	width: 350px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.track {
+	width: 300px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.price {
+	text-align: center;
+}
+
+.remove {
+	width: 30px;
+	padding: 0;
+	padding-left: 15px;
+}
+
+.myButton {
+	background-color: #91376b;
+	color: white;
+	width: 90px;
+	height: 30px;
+	border: solid 1px black;
+}
+
+#content {
+	margin-top: 200px;
+	margin-bottom: 70px;
+}
+
+#buttondiv {
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+	position: relative;
+}
+
+.colored {
+	background-color: #bd5190;
+}
+
+.colored img {
+	border: none;
+}
+
+.header {
+	background-color: white;
+	border: solid 1px;
+}
+
+.defaultColor {
+	background-color: white;
+}
+
+#footerBar,#footer, #quote, #research, #menuImage {
+	display: none;
+}
+
+#all{
+	box-shadow: 0px 0px 0px #FFF, 0px 0px 0px;
+	height:auto;
+	width:auto;
+	padding:0px;
+}
+
+#white{
+	width:100%;
+}
+
+#menu img {
+   display:none;
+}
+
+#header{height:0px;
+}
+
+
+#profile {
+	left:0px;
+   top: -80px;
+   background:#5d5d5;
+   font-size:17pt;
+   width:40%;
+}
+
+#cart{ 
+	margin-left:20px;
+	 width:100px;
+	 top: -80px;
+	 background:#5d5d5;
+	 font-size:17pt;
+}
+
+
+#menu img{display:none;}

@@ -1,0 +1,113 @@
+<!-- Kimberly Noel  -->
+
+#content{
+ position:relative;
+ height:0px;
+ margin:0px;
+}
+
+body{
+background:linear-gradient(to right, #eadde6, white, #eadde6);
+background: -webkit-gradient(linear, 0 0, 100% 0, from(#eadde6), color-stop(50%, white), color-stop(50%, white), color-stop(100%, #eadde6));
+}
+
+#logo {
+   margin-left:100px;
+   width:50%;
+}
+
+#container {
+top:100px;
+position:relative;
+width:70%;
+margin-left:auto;
+margin-right:auto;
+border:solid 1px grey;
+border-radius:25px;
+font-size:18pt;
+color:black;
+text-align:center;
+box-shadow: 0px 10px 20px #888888;
+min-height:720px;
+}
+
+#signin {
+position:relative;
+width:90%;
+top:20px;
+font-family:Trebuchet MS;
+text-align:center;
+font-size:18pt;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+#register{
+font-family:Trebuchet MS;
+position:relative;
+width:90%;
+top:20px;
+margin-left:140px;
+margin-right:auto;
+}
+
+#register p{
+ font-family:Trebuchet MS;
+font-size:18pt;
+text-align:center;
+}
+
+#footerBar, #footer, #separator, #quote, #research, #menuImage {
+	display:none;
+}
+
+#all{
+	box-shadow: 0px 0px 0px #FFF, 0px 0px 0px;
+	height:auto;
+	width:auto;
+	padding:0px;
+}
+
+
+#loginImg {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ #registerImg {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-20px;
+}
+
+#white{
+	width:100%;
+}
+
+#menu img {
+   display:none;
+}
+
+#header{height:0px;}
+
+#profile {
+	left:0px;
+   top: -80px;
+   background:#5d5d5;
+   font-size:17pt;
+   width:40%;
+}
+
+#cart{ 
+	margin-left:20px;
+	 width:100px;
+	 top: -80px;
+	 background:#5d5d5;
+	 font-size:17pt;
+}
+
+#password, #loginname {
+	size:15px;
+}
+

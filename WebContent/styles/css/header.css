@@ -1,0 +1,159 @@
+/* HEADER FEATURES */
+#all{
+box-shadow:5px 0px 10px #aaa, -5px 0px 10px #aaa;
+background-color:rgba(255, 255, 255, 0.3)
+}
+
+body{
+/*background:#eadde6;*/
+background:linear-gradient(to right, #eadde6, white);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#eadde6', endColorstr='#ffffff')"; 
+}
+
+img {
+border:none;
+}
+
+/* Adding a grey bar above the screen*/
+#white{
+height:60px;
+width:100%;
+background-color:#5d5d5d;
+border-bottom:solid 1px;
+}
+
+/* Positionning the text and images in the browser */
+
+#menu {
+position:relative;
+height:0px;
+}
+
+#menu p{
+color:white;
+display:block;
+position:absolute;
+z-index:1;
+}
+
+#menu a{
+text-decoration:none;
+color:white;
+}
+
+#menu img {
+margin-top:-61px;
+z-index:0;
+}
+
+#menuImage{
+width:1024px;
+height:60px;
+}
+
+#cartImage {
+position:absolute;
+right:130px;
+top:10px;
+width:40px;
+height:40px;
+}
+
+#profile {
+right:195px;
+top:-67px;
+padding:10px 50px 0px 50px;
+}
+
+#disconnect{
+text-decoration:underlined;
+font-size:70%;
+color:white;
+position:absolute;
+right:247px;
+top:-28px;
+}
+
+#disconnect a {
+text-decoration:underlined;
+}
+
+#cart{
+right:10px;
+top:-68px;
+padding:10px 50px 10px 50px;
+}
+
+#quote{
+padding-top:17px;
+margin-top:0;
+margin-left:10px;
+position:absolute;
+z-index:1;
+color:white;
+}
+
+/* Positionning the logo */
+#logo {
+margin-left:5px;
+margin-top:20px;
+width:33%;
+height:auto;
+border:none;
+}
+
+/* Positionning the research tool */
+#research {
+width:383px;
+border:solid 2px;
+position:absolute;
+top:60px;
+left:400px;
+background-color:white;
+}
+
+#research img {
+position:absolute;
+right:0px;
+top:0px;
+border:none;
+padding-right:10px;
+padding-left:10px;
+padding-top:6px;
+padding-bottom:6px;
+}
+
+#search {
+height:43px;
+margin-left:0;
+}
+
+/* Genre customization */
+
+#genre {
+position:relative;
+width:998px;
+height:184px;
+margin-left:11px;
+margin-top:0;
+margin-bottom:0;
+padding:0;
+border:solid 1px;
+	background: linear-gradient(to right, black, lightgrey, black);
+	background: -webkit-gradient(linear, 0 0, 100% 0, from(black),
+		color-stop(50%, lightgrey), color-stop(50%, lightgrey),
+		color-stop(100%, black) );
+}
+
+#genre h2 {
+color:black;
+position:absolute;
+top:0px;
+left:450px;
+margin-top:5px;
+}
+
+#header{
+position:relative;
+height:120px;
+}

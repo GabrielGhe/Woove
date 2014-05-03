@@ -1,0 +1,74 @@
+/* global page features */
+
+body{
+width:100%;
+margin:0px;
+padding:0px;
+font-family:Trebuchet MS;
+}
+
+#all{
+width:1024px ;
+margin:auto;
+padding:0px 0px 0px 0px;
+/* box-shadow:7px 0px 10px #666;
+/*border-left:solid 1px;
+border-right:solid 1px;*/
+margin-bottom:0px;
+position:relative;
+}
+
+#header a {
+color:white;
+text-decoration:underline;
+}
+
+#footer a {
+color:white;
+text-decoration:underline;
+}
+
+input[placeholder] {
+font-size:120%;
+}
+
+#footer ul {
+list-style-type:none;
+}
+
+#footer li {
+display:block;
+position:absolute;
+top:0px;
+z-index:1;
+}
+
+#li1 {
+top:0px;
+left:40%;
+}
+
+#li2{
+top:0px;
+left:60%;
+}
+
+#all img{
+border:none;
+}
+
+.genre-carousel img {
+border:solid 1px;
+}
+
+#M_ad1 img {
+position:absolute;
+left:20px;
+border:solid 1px;
+}
+
+#M_ad2 img {
+position:absolute;
+left:20px;
+border:solid 1px;
+}

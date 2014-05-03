@@ -1,0 +1,199 @@
+#content h1 {
+position:absolute;
+top:-220px;
+left:500px;
+text-align:center;
+}
+
+#content h2 {
+text-align:center;
+}
+
+#ad_Management{
+margin-left:10px;
+border:solid 2px;
+width:1000px;
+height:300px;
+}
+
+#ad_Management img {
+position:absolute;
+left:510px;
+top:50px;
+}
+
+#ad_Management img[height="50px"] {
+position:absolute;
+left:10px;
+top:50px;
+border:solid black 1px;
+}
+
+#M_ad1 {
+height:253px;
+width:500px;
+position:absolute;
+top:50px;
+}
+
+#M_ad1 h3 {
+text-align:center;
+}
+
+#M_ad1 form {
+margin-top:70px;
+margin-left:20px;
+}
+
+#M_ad1 input {
+margin-left:20px;
+}
+
+.url {
+position:relative;
+left:18px;
+}
+
+.submit {
+position:absolute;
+right: 20px;
+bottom:5px;
+}
+
+#M_ad2 {
+height:253px;
+width:500px;
+position:absolute;
+top:50px;
+right:12px;
+}
+
+#M_ad2 h3 {
+text-align:center;
+}
+
+#M_ad2 form {
+margin-top:70px;
+margin-left:20px;
+}
+
+#M_ad2 input {
+margin-left:17px;
+}
+
+#news_Management{
+border:solid 2px;
+height:290px;
+width:500px;
+margin-right:25px;
+margin-left:10px;
+margin-top:30px;
+position:relative;
+}
+
+#news_Management select {
+color:#bd5190;
+border:none;
+font-size:100%;
+font-weight:bold;
+margin-bottom:80px;
+}
+
+#news_Management input {
+margin-left:17px;
+}
+
+#currentN{
+position:absolute;
+right:20px;
+top:55px;
+margin:0;
+padding:0;
+}
+
+#currentN p{
+margin:0;
+padding:0;
+}
+
+#currentN img{
+margin:0;
+height:90px;
+}
+
+#survey_Management{
+border:solid 2px;
+height:290px;
+width:480px;
+position:absolute;
+right:10px;
+top:334px;
+}
+
+#survey_Management form {
+margin-left:40px;
+}
+
+#survey_Management input{
+margin-bottom:30px;
+margin-top:10px;
+margin-right:50px;
+}
+
+#submitS {
+position:absolute;
+right:-30px;
+bottom:-25px;
+}
+
+#rss{
+margin-left:10px;
+}
+
+/* FOOTER */
+
+#content{
+position:relative;
+margin-top:250px;
+}
+
+#ad_Management select {
+margin:0px;
+margin-left:5px;
+padding:0;
+min-width:150px;
+max-width:300px;
+}
+
+.previous{
+margin-left:80px;
+}
+
+#ad_Management form{
+margin-top:50px;
+}
+
+#news_Management select {
+margin-left:5px;
+margin-bottom:30px;
+margin-top:20px;
+padding:0;
+min-width:150px;
+max-width:300px;
+}
+
+#news_Management label {
+margin-left:20px;
+}
+
+#Psurvey{
+margin-left:40px;
+}
+
+#survey_Management select {
+margin-left:5px;
+margin-bottom:10px;
+padding:0;
+min-width:150px;
+max-width:300px;
+}

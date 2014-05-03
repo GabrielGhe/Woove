@@ -1,0 +1,79 @@
+#content {
+position:relative;
+margin-top:190px;
+margin-bottom:50px;
+}
+
+#container {
+min-height:490px;
+width:1100px;
+border:0px;
+}
+
+#container table{
+background-color:white;
+width:880px;
+text-align:left;
+padding:0px;
+border-spacing:0;
+border-bottom:solid 1px;
+}
+
+#container td {
+border-left:solid 1px;
+border-right:solid 1px;
+}
+
+#container th {
+text-align:center;
+background:#bd5190;
+}
+
+#C_ID {
+margin-top:-10px;
+}
+
+.none {
+border-bottom:solid 1px;
+}
+
+.album {
+width:350px;
+padding-left:5px;
+padding-right:5px;
+}
+
+.track {
+width:300px;
+padding-left:5px;
+padding-right:5px;
+}
+
+.price {
+text-align:center;
+}
+
+.remove {
+width:30px;
+padding:0;
+padding-left:15px;
+}
+
+.colored {
+background-color: #bd5190 ;
+}
+
+.colored img {
+border:none;
+}
+
+.header{
+background-color:white;
+border:solid 1px;
+}
+
+#container input{
+position:absolute;
+right:140px;
+bottom:-50px;
+}

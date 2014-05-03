@@ -1,0 +1,460 @@
+#all{
+position:relative;
+}
+
+#highlights {
+width:775px;
+height:180px;
+margin-left:10px;
+background-color:white;
+text-align:center;
+margin-bottom:50px;
+box-shadow: 0px 0px 5px #aaa;
+border-collapse: separate;
+}
+
+#survey {
+width:185px;
+height:185px;
+border:solid 1px;
+background-color:#bd5190;
+/*background-image:-moz-linear-gradient(45deg, #66a66d, #85cf90);
+background-image:-webkit-linear-gradient(45deg, #66a66d, #85cf90);
+background-image:-o-linear-gradient(45deg, #66a66d, #85cf90);
+background-image:linear-gradient(45deg, #66a66d, #85cf90);*/
+padding-left:10px;
+padding-right:5px;
+position:absolute;
+top:0px;
+right:10px;
+box-shadow: -5px -2px 8px #aaa;
+z-index:100;
+}
+
+#survey p {
+font-size:95%;
+margin-bottom:0px;
+margin-top:0px;
+}
+
+#survey h3 {
+text-align:center;
+margin-bottom:10px;
+}
+
+#voteSurvey {
+position:absolute;
+top:186px;
+left:65px;
+z-index:1;
+border:solid black 1px;
+border-top:none;
+height:30px;
+width:70px;
+text-indent:-9999px;
+}
+
+/*
+#voteSurvey p{
+margin-bottom:0;
+color:white;
+}
+*/
+
+#survey span {
+color:white;
+}
+
+#survey form{
+position:relative;
+top:15px;
+}
+
+#yesResult{
+position:absolute;
+margin-left:25px;
+right:20px;
+top:-10px;
+font-size:200%;
+}
+
+#noResult{
+position:absolute;
+margin-left:25px;
+right:20px;
+top:25px;
+font-size:200%;
+}
+
+/* Positionning of the genre banner */
+#genre {
+width:775px;
+margin-top:-30px;
+}
+
+.lastThree{
+margin:0px;
+padding-left:20px;
+padding-right:0;
+width:235px;
+height:65px;
+display:inline-block;
+}
+
+#last3 {
+width:775px;
+height:100px;
+margin-top:30px;
+background-color:white;
+margin-left:12px;
+box-shadow: 0px 5px 15px #666, 0px -5px 15px #666;
+border-collapse:collapse;
+}
+
+#last3 h2 {
+text-align:center;
+padding-top:5px;
+padding-bottom:0px;
+margin-bottom:0px;
+margin-top:0px;
+}
+
+/* For the p and img we'll have to use javascript to repeat the display of others elements (265px between each element) */
+
+#last3 p {
+position:relative;
+margin-top:0px;
+margin-bottom:0px;
+top:-53px;
+left:60px;
+font-size:90%;
+max-width:173px;
+}
+
+.albumSample {
+position:relative;
+bottom:20px;
+left:20px;
+}
+
+#seperate {
+position:absolute;
+top:450px;
+left:258px;
+}
+
+#RSS{
+float:right;
+margin-top:120px;
+margin-right:10px;
+width:450px;
+height:215px;
+overflow-y:scroll;
+background:#eee;
+box-shadow:0px 0px 10px #999;
+}
+
+#RSS a {
+text-decoration:none;
+}
+
+#RSS a:hover .rssArticle{
+background:#bbb;
+}
+
+.rssArticle{
+padding-top:3px;
+padding-bottom:3px;
+border: solid lightgrey 1px;
+border-collapse:collapse;
+}
+
+a .rssArticle {
+color:black;
+}
+
+
+#topTrack {
+width:380px;
+height:0px;
+}
+
+#topTrack img {
+position:relative;
+left:0px;
+}
+
+#topTrack p {
+position:relative;
+bottom:76px;
+right:-65px;
+}
+
+#topSeparation {
+position:absolute;
+top:40px;
+left:400px;
+}
+
+#topAlbum{
+position:absolute;
+top:-20px;
+left:420px;
+height:0px;
+width:380px;
+}
+
+#topAlbum p {
+position:relative;
+bottom:76px;
+right:-65px;
+}
+
+#top h2 {
+text-align:center;
+}
+
+#topAlbum h2
+ {
+ }
+ 
+ #content{
+position:relative;
+margin-top:50px;
+margin-bottom:450px;
+}
+ 
+ #top{
+ position:relative;
+ margin-top:30px;
+ margin-left:10px;
+ }
+ 
+.topTrackR{
+float:left;
+width:90%;
+height:65px;
+margin-top:5px;
+margin-left:5px;
+clear:both;
+}
+
+.topAlbumR{
+float:left;
+width:90%;
+height:65px;
+margin-top:5px;
+margin-left:5px;
+clear:both;
+}
+
+.last {
+margin-right:275px;
+}
+
+/* Gabriel added this for carousels */
+#myCarousel {
+	width:775px;
+	height:200px;
+	position:relative;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	top:0px;
+	right:0px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:775px;
+	height:220px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:775px;
+	height:180px;
+	display:block;
+	text-decoration:none;
+	color:black;
+}
+
+.slides_container a img {
+	float:left;
+	display:block;
+	margin-right:20px;
+}
+
+.slides_container a h2 {
+	display:block;
+	text-align:center;
+	margin-left:0px;
+	margin-bottom: 40px;
+	height:30px;
+	width:555px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-right:20px;
+}
+
+.slides_container a p {
+	display:block;
+	text-align: left;
+	margin: 0 20px 20px 0px;
+	font-size:16pt;
+	height:30px;
+	width:555px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.slides_container strong {
+font-size:22pt;
+color:#bd5190;
+}
+
+#slides .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:10px auto 0;
+	padding: 0 0 0 0;
+	width:100px;
+	position:absolute;
+	top:0px;
+	z-index:101;
+	right:0px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	top:0px;
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:13px;
+	background-image:url(pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+.genre-carousel
+{
+width:775px;
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+}
+
+.genre-carousel li 
+{
+background:#ccc;
+color:#666; 
+float:left;
+font-weight:bold;
+font-size:3em;
+height:173px;
+width:125px;
+list-style:none;
+padding:0 0 0 0;
+margin: 0;
+margin-top:32px;
+margin-left:10px;
+text-align:center;
+}
+
+
+#recentlyViewed
+{
+position:fixed;
+top:40%;
+right:0px;
+height:220px;
+width:80px;
+z-index:1000;
+background-color:white;
+box-shadow: 0px 10px 20px #666, 0px -10px 20px #666;
+}
+
+
+#recentlyViewed p
+{
+float:left;
+margin:10px 5px 0 20px;
+}
+
+
+#recentlyViewed img
+{
+float:left;
+height:50px;
+width:50px;
+margin:10px 5px 0 20px;
+}
+
+#crossed {
+text-decoration:line-through;
+margin-right:20px;
+font-size:14pt;
+}
+
+#genre h2 {
+left:350px;
+}
+
+#Nb_Track {
+position:absolute;
+font-size:1em;
+left:200px;
+top:115px;
+}
+
+#artist_sale{
+margin-top:-20px;
+}
+
+#price_Sale{
+margin-top:40px;
+}
+
+#highlights i {
+position:absolute;
+right:10px;
+bottom:20px;
+}

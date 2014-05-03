@@ -1,0 +1,48 @@
+#container{
+width:900px;
+border:solid 1px;
+border-collapse:collapse;
+}
+
+th{
+border:solid 1px;
+}
+
+td{
+border-right:solid 1px;
+border-left:solid 1px;
+padding:5px;
+}
+
+#content{
+position:relative;
+margin-top:170px;
+min-height:400px;
+}
+
+#bot{
+margin-bottom:250px;
+margin-top:-40px;
+}
+
+#download {
+position:absolute;
+bottom:-80px;
+right:124px;
+}
+
+#print{
+position:absolute;
+bottom:-80px;
+left:20px;	
+}
+
+h3{
+position:absolute;
+bottom:-20px;
+right:124px;
+}
+
+h3 span {
+color:#bd5190;
+}

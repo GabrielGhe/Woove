@@ -1,0 +1,299 @@
+<!-- Kimberly Noel  -->
+
+#trackcontainer {
+width:550px;
+position:relative;
+left:250px;
+top:-290px;
+}
+
+#trackcontainer table{
+margin-left:-10px;
+width:550px;
+}
+
+#test{
+min-height:100px;
+margin-bottom:50px;
+margin-top:-30px;
+}
+
+#trackcontainer td {
+padding-right:5px;
+padding-left:5px;
+}
+
+#getTitle {
+width:400px;
+}
+
+#fakeReview-re{
+min-width:920px;
+min-height:150px;
+max-width:920px;
+margin-left:7px;
+}
+
+#review-re {
+border:solid 2px #bd5190;
+min-width:920px;
+min-height:150px;
+max-width:920px;
+margin-left:-3px;
+position:relative;
+left:5px;
+top:10px;
+width:90%;
+}
+
+#review-ra {
+position:absolute;
+right:15px;
+top:5px;
+}
+
+#review-su {
+position:relative;
+left:90%;
+top:0px;
+}
+
+.reviewAll
+{
+width:90%;
+margin: 20px 10px 10px 20px;
+}
+
+.reviewAll label
+{
+float:left;
+margin: 0 0 10px 0;
+}
+
+.reviewAll p
+{
+width:80%;
+}
+
+#price {
+position:absolute;
+right:0px;
+top:-20px;
+}
+
+#price img {
+position:relative;
+top:5px;
+}
+
+#albumcontainer {
+height:30px;
+right:-55px;
+bottom:-50px;
+position:absolute;
+}
+
+#albumcontainer h3 {
+padding:0;
+margin:0;
+}
+
+#albumcontainer input{
+position:absolute;
+top:-5px;
+right:420px;
+}
+
+.myButton {
+   background-color:#bd5190;
+   color:white;
+    width: 90px;
+    height: 30px;
+}
+
+#content{
+ position:relative;
+ margin-top:210px;
+}
+
+#genre {
+width:1000px;
+height:200px;
+background:url(/images/genre.PNG) no-repeat; 
+}
+
+#genre h1{
+text-align:center;
+}
+
+#albumimg {
+width:200px;
+height:200px;
+position:relative;
+left:20px;
+top:-160px;
+background-color:white;
+}
+
+#title {
+height:50px;
+position:absolute;
+top:-200px;
+left:250px;
+}
+
+#title h2{
+color:black;
+margin:0;
+margin-top:30px;
+margin-bottom:10px;
+}
+
+#title h3 {
+margin:0;
+}
+
+#similar {
+margin-top:-310px;
+width:960px;
+height:120px;
+margin-left:20px;
+padding-right:20px;
+padding-top:0;
+background:url(/images/last3.PNG) no-repeat center;
+box-shadow: 0px 10px 20px #666, 0px -10px 20px #666;
+background-color:white;
+}
+
+#similar h3 {
+padding-top:0px;
+margin-top:10px;
+margin-left:20px;
+}
+
+#similar p {
+position:relative;
+margin-top:2px;
+margin-bottom:0px;
+top:-80px;
+left:60px;
+font-size:90%
+}
+
+.lastThree{
+margin-top:20px;
+margin-left:20px;
+width:295px;
+height:80px;
+display:inline-block;
+}
+
+.albumSample {
+position:relative;
+bottom:20px;
+}
+
+#reviews_Container {
+width:960px;
+min-height:210px;
+margin-left:20px;
+margin-top:30px;
+box-shadow:0px 7px 15px #666;
+padding:10px;
+margin-bottom:0;
+background-color:white;
+}
+
+#reviews_Container h2{
+text-align:center;
+}
+
+.reviews {
+width:950px;
+min-height:150px;
+margin-top:10px;
+margin-bottom:20px;
+padding-left:10px;
+position:relative;
+}
+
+.reviewAll{
+border:solid 2px;
+margin-top:5px;
+margin-left:5px;
+margin-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+width:915px;
+}
+
+#reviews textarea {
+max-width:950px;
+max-height:150px;
+min-width:950px;
+min-height:150px;
+margin-top:10px;
+margin-bottom:20px;
+}
+
+img.ranking {
+float:right;
+border:0px;
+height:20px;
+width:20px;
+padding:1px;
+}
+
+#starcontainer{
+position:absolute;
+top:45px;
+left:20px;
+}
+
+img.star {
+border:0px;
+height:20px;
+width:20px;
+}
+
+/* jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ */
+div.rating-cancel,div.star-rating{float:left;width:21px;height:20px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden}
+div.rating-cancel,div.rating-cancel a{background:url(delete.gif) no-repeat 0 -20px}
+div.star-rating,div.star-rating a{background:url(star.gif) no-repeat 0 0px}
+div.rating-cancel a,div.star-rating a{display:block;width:16px;height:100%;background-position:0 0px;border:0}
+div.star-rating-on a{background-position:0 -20px!important;
+width:20px;}
+div.star-rating-hover a{background-position:0px -40px;
+width:20px;
+}
+/* Read Only CSS 
+div.star-rating-readonly a{cursor:default !important}
+/* Partial Star CSS
+div.star-rating{background:transparent!important;overflow:hidden!important}
+/* END jQuery.Rating Plugin CSS */
+
+.Clear {
+position:absolute;
+top:5px;
+right:15px;
+z-index:10000;
+}
+
+#commentBody{
+width:905px;
+text-align:justify;
+}
+
+.reviewAll strong {
+color:#bd5190;
+margin-top:10px;
+}
+
+.reviewAll img{
+margin-left:-5px;
+}
+
+#reviewRating{
+margin-left:820px;
+margin-top:1px
+}

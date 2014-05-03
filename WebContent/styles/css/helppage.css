@@ -1,0 +1,73 @@
+
+<!-- Kimberly Noel  -->
+
+/* main content */
+
+#container {
+padding-top:50px;
+padding-left:100px;
+text-align:center;
+left:0px;
+width:600px;
+height:300px;
+border:0px;
+font-size:16pt;
+border-radius:25px;
+}
+
+
+#content{
+ position:relative;
+ top:100px;
+}
+
+
+#selection{
+background:white;
+border-radius:25px;
+border:0px;
+position:relative;
+top:0px;
+left:0px;
+padding-top:25px;
+padding-left:10px;
+margin:30px;
+text-align:left;
+height:600px;
+width:300px;
+font-size:16pt;
+}
+
+
+#infocontent{
+top:-655px;
+left:350px;
+background:#333;
+border-radius:25px;
+color:white;
+border: 0px;
+position:relative;
+padding-top:25px;
+padding-left:20px;
+margin:30px;
+text-align:left;
+height:600px;
+width:550px;
+font-size:16pt;
+}
+
+a {
+color:black;
+}
+
+/* header */
+
+#titleCheck h3 {
+text-align:center;
+margin-bottom:10px;
+}
+
+/* Positionning the research tool */
+#research {
+display:none;
+}

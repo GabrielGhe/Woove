@@ -1,0 +1,118 @@
+#content h1 {
+position:absolute;
+left:500px;
+top:-150px;
+}
+
+#content h3 {
+position:absolute;
+top:50px;
+left:0px;
+}
+
+#manage {
+height:600px;
+}
+
+#manage p {
+font-size:1.2em;
+text-align:center;
+width:170px;
+}
+
+#manage a {
+text-decoration:none;
+color:white;
+}
+
+#client {
+position:absolute;
+top:150px;
+left:100px;
+}
+
+#trackAlbum {
+position:absolute;
+left:650px;
+top:150px;
+}
+
+#adManage {
+position:absolute;
+top:150px;
+left:375px;
+}
+
+#invoice{
+position:absolute;
+top:400px;
+left:665px;
+}
+
+#invoice p {
+position:absolute;
+top:0px;
+left:15px;
+color:white;
+z-index:100;
+}
+
+#ANSM {
+position:absolute;
+top:140px;
+left:390px;
+}
+
+ /* Chrome ONLY */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+		#invoice p{
+		top:10px;
+		} 
+		#ANSM{
+		top:150px;
+		} 
+	}
+
+#report {
+position:absolute;
+top:400px;
+left:380px;
+}
+
+#report2 {
+position:absolute;
+bottom:20px;
+left:15px;
+color:white;
+z-index:100;
+}
+
+#CM{
+position:absolute;
+top:165px;
+left:115px;
+}
+
+#ATM{
+position:absolute;
+top:150px;
+left:665px;
+}
+
+#sales{
+position:absolute;
+top:400px;
+left:100px;
+}
+
+/* FOOTER */
+
+#content{
+position:relative;
+margin-top:190px;
+margin-bottom:20px;
+}
+
+#research{
+display:none;
+}

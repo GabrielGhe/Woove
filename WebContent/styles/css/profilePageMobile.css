@@ -1,0 +1,70 @@
+#content{
+ position:relative;
+ height:0px;
+ top:-50px;
+}
+
+body{
+background:linear-gradient(to right, #eadde6, white, #eadde6);
+background: -webkit-gradient(linear, 0 0, 100% 0, from(#eadde6), color-stop(50%, white), color-stop(50%, white), color-stop(100%, #eadde6));
+}
+
+#container {
+	font-size:18pt;
+margin:auto;
+width:90%;
+min-height:500px;
+border:0px;
+margin-top:0px;
+padding:10px;
+box-shadow:0px 7px 15px #666;
+background-color:white;
+}
+
+#container h2 {
+text-align:center;
+margin-top:10px;
+}
+
+#container p {
+font-size:14pt;
+}
+
+#container table {
+width:100%;
+margin-left:0px;
+}
+
+.download{
+margin-left:10px;
+}
+
+.sample {
+width:200px;
+padding-left:10px;
+}
+
+.album {
+width:30%;
+}
+
+.track {
+width:30%;
+}
+
+.price {
+width:20%;
+text-align:center;
+font-size:90%;
+}
+.date{
+width:20%;
+}
+
+#footerBar, #footer, #separator, #quote {
+	display:none;
+}
+
+#all{
+box-shadow:0px 0px 0px #FFF, 0px 0px 0px #FFF;
+}
